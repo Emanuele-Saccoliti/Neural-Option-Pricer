@@ -16,3 +16,9 @@ While the Black–Scholes price is known in closed form, this experiment serves 
 * Neural networks can accurately learn the pricing function within the training domain
 * Structural option pricing properties are not guaranteed without constraints
 * Demonstrates the importance of incorporating financial structure & no-arb conditions
+
+
+# ⚠️ Key Challenges
+* Recovering structural properties of option prices: Ensuring the network learns financial structure, not just numerical fitting.
+* Avoiding arbitrage violations: NN trained purely on MSE can violate no-arbitrage constraints like Call spread arbitrage (monotonicity), Butterfly arbitrage (convexity), Calendar arbitrage.
+* Extrapolation instability: The model performs well in-domain but fails outside the training region.
