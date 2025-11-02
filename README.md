@@ -1,4 +1,4 @@
-# Neural-Option-Pricer
+# Repository Description
 
 This project explores the use of feed-forward Artificial Neural Network (ANN) to learn the pricing map of European call options in the Black–Scholes framework, replacing the analytical formula with a data-driven surrogate model.
 
